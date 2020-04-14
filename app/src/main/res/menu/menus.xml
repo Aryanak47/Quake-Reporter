@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item android:title="USGS link"
+        android:icon="@drawable/linkvariant"
+        android:id="@+id/link_id"></item>
+
+    <item android:title="Send Feedback"
+        android:icon="@drawable/feedback"
+        android:id="@+id/feedback_id"></item>
+    <item android:title="setting"
+        android:id="@+id/setting"
+        android:icon="@drawable/settingsoutline"
+        />
+
+    <item android:title="About Developer"
+        android:icon="@drawable/information"
+        android:id="@+id/Aboutme"></item>
+
+</menu>

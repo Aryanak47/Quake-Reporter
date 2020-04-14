@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutme"
+    android:orientation="vertical">
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="ABOUT ME"
+        android:textColor="@color/colorAccent"
+        android:textSize="80dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/myimage"
+        android:scaleType="centerCrop"
+
+        >
+
+    </ImageView>
+
+    <TextView
+        android:background="@color/cardview_dark_background"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Aboutme"
+
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:onClick="onInstaClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/insta"
+       >
+
+   </ImageView>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="48dp"
+       android:text="@string/instaid"
+       android:textSize="20dp"
+       android:layout_marginLeft="10dp"
+       android:gravity="center"
+       >
+
+   </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+       android:onClick="onFacebookClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/facebook"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="@string/fbid"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            >
+        </TextView>
+
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

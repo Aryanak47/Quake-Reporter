@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ListPreference
+       android:dialogTitle="@string/orderdialogtitle"
+        android:title="@string/listTitle"
+        android:defaultValue="@string/order_default_value"
+        android:entryValues="@array/order_array"
+        android:entries="@array/order_array"
+        android:summary="@string/listSummary"
+        android:key="ORDER_KEY"
+        >
+
+    </ListPreference>
+
+<EditTextPreference
+    android:dialogTitle="@string/dialogtitleofminmag"
+    android:title="@string/minmag"
+    android:inputType="number"
+    android:summary="@string/min_mag_summary"
+    android:key="MAG_KEY"
+    >
+
+</EditTextPreference>
+
+</PreferenceScreen>
